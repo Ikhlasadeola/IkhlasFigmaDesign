@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.first{
+    margin: 0px 20px;
+    padding: 15px 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bars{
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.caret{
+    width: 20px;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    padding-top: 5px;
+}
+.Login{
+width: 100px;
+height: 35px;
+background-color: #CBFFD0;
+font-size: 14px;
+border: none;
+border-radius: 10px;
+}
+.Signup{
+    width: 100px;
+height: 35px;
+background-color: #26A69A;
+font-size: 14px;
+border: none;
+border-radius: 10px;
+}
+.features, .works{
+    display: flex;
+    justify-content: center;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.apps{
+    width: 500px;
+    margin-top: 50px;
+}
+.laptop{
+    position: relative;
+    width: 700px;
+    z-index: 2;
+}
+.Track{
+    font-size: 60px;
+}
+.wise{
+    font-size: 30px;
+}
+.rect1{
+position: absolute;
+width: 560px;
+height: 565px;
+left: 970px;
+top: 260px;
+background: #CBFFD0;
+border-radius: 300px 0px 0px 0px;
+}
+
+.our{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 32px;
+}
+.rect2{
+position: absolute;
+width: 575px;
+height: 714px;
+left: -96px;
+top: 979px;
+background: #26A69A;
+border-radius: 300px 0px 0px 0px;
+transform: rotate(180deg);
+}
+
+.hand{
+position: absolute;
+width: 559.45px;
+height: 520px;
+left: -14px;
+top: 1195px;
+filter: drop-shadow(-28px -6px 30px rgba(0, 0, 0, 0.25));
+}
+
+.sector{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feats{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 50px;
+    margin-top: 60px;
+    margin-right: 80px;
+}
+.onebox{
+    width: 250px;
+    height: auto;
+    background: #CBFFD0;
+    border-radius: 27px;
+    font-size: 18px;
+    padding: 20px;
+    
+}
+.twobox{
+    width: 250px;
+    height: auto;
+    background: #26A69A;
+    border-radius: 27px;
+    font-size: 18px;
+    padding: 20px;   
+}
