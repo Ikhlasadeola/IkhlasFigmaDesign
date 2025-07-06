@@ -213,11 +213,121 @@ transform: rotate(180deg);
 }
 .rect6{
 position: absolute;
-width: 575px;
+width: 495px;
 height: 427px;
-left: 1085px;
+left: 1035px;
 top: 3624px;
 background: #26A69A;
 border-radius: 300px 0px 0px 0px;
 }
 
+.profile1{
+position: absolute;
+width: 450px;
+height: 600px;
+left: calc(50% - 450px/2 + 4px);
+top: 3239px;
+background: #26A69A;
+border-radius: 27px;
+text-align: center;
+font-size: 30px;
+z-index: 2;
+/* transform: rotate(180deg); */
+}
+.pic{
+    width:100px;
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+.profile2{
+position: absolute;
+width: 400px;
+height: 450px;
+left: calc(50% - 400px/2 - 365px);
+top: 3314px;
+background: #CBFFD0;
+border-radius: 27px;
+text-align: center;
+font-size: 24px;
+}
+.profile3{
+position: absolute;
+width: 400px;
+height: 450px;
+left: calc(50% - 400px/2 + 365px);
+top: 3314px;
+background: #CBFFD0;
+border-radius: 27px;
+text-align: center;
+font-size: 24px;
+}
+.testi{
+position: absolute;
+width: 476px;
+height: 72px;
+left: calc(50% - 476px/2);
+top: 3033px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 72px;
+text-align: center;
+color: #000000;
+}
+.faqs{
+position: absolute;
+width: 362px;
+height: 72px;
+left: 499px;
+top: 4205px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 72px;
+text-align: center;
+color: #000000;
+}
+.rect7{
+position: absolute;
+width: 575px;
+height: 714px;
+left: -130px;
+top: 3962px;
+background: #CBFFD0;
+border-radius: 300px 0px 0px 0px;
+transform: rotate(180deg);
+}
+.box{
+position: absolute;
+width: 790px;
+height: 540px;
+left: 492px;
+top: 4350px;
+background: #26A69A;
+border-radius: 37px;
+align-content: center;
+justify-content: center;
+}
+.box1{
+ background-color: #CBFFD0;
+ border-radius: 27px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 10px;
+ font-size: 37px;
+ height: 100px;
+ padding-left: 15px;
+ font-weight: 500;
+ margin-bottom: 30px;
+}
+.barss{
+position: absolute;
+width: 200px;
+height: 219px;
+left: 50%;
+top: 5075px;
+border-radius: 0px;
+}
